@@ -37,3 +37,5 @@
     - 3.3.2 ideas for the application (vietnamese RAG application)
 
       - workflow to build embedding database ? [embedding SQLite database, gguf model local lm](https://github.com/Tran-Le-Phuong-Lan/epo-2025/tree/047f159e28f95a4024337e9e9b68f0cb6ed4c20e/semantic_search), [RAG workflow](https://github.com/Tran-Le-Phuong-Lan/epo-2025/tree/047f159e28f95a4024337e9e9b68f0cb6ed4c20e/backend-API)
+
+      - alternative way to generate [embeddings with api call](https://docs.mistral.ai/capabilities/embeddings/text_embeddings/)
