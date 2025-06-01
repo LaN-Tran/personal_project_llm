@@ -39,3 +39,13 @@
       - workflow to build embedding database ? [embedding SQLite database, gguf model local lm](https://github.com/Tran-Le-Phuong-Lan/epo-2025/tree/047f159e28f95a4024337e9e9b68f0cb6ed4c20e/semantic_search), [RAG workflow](https://github.com/Tran-Le-Phuong-Lan/epo-2025/tree/047f159e28f95a4024337e9e9b68f0cb6ed4c20e/backend-API)
 
       - alternative way to generate [embeddings with api call](https://docs.mistral.ai/capabilities/embeddings/text_embeddings/)
+    
+    - 3.3.3 fine-tuning vs prompting
+
+      - [prompting mistral ai](https://docs.mistral.ai/guides/prompting_capabilities/)
+
+    - 3.3.4 Tokenizer
+
+      - [tokenizer](https://docs.mistral.ai/guides/tokenization/)
+
+        - [tiktoken](https://github.com/openai/tiktoken)

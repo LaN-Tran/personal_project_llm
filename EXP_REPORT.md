@@ -16,7 +16,14 @@
   - 1.4 using the local `bartowski/Mistral-Nemo-Instruct-2407-GGUF` - `Mistral-Nemo-Instruct-2407-Q4_K_M.gguf` to generate embeddings takes a lot of computation (in a computer with 4 logical cpu cores, all works 100%, it takes 238 min to embed 167 200-word paragraphs)
 
   - 1.5 using api call to "open-mistral-nemo" for generating embeddings: FAILURE. The call only to generate text.
+
+  - 1.6 using another small model (BERT like) for generating embeddings, for example:
+
+    - 1.6.1 [dangvantuan/vietnamese-embedding](https://huggingface.co/dangvantuan/vietnamese-embedding)
  
+    - 1.6.2 [vinai/phobert-base](https://huggingface.co/vinai/phobert-base)
+
+  - 1.7 Try out [vinai/PhoGPT-4B-Chat-gguf](https://huggingface.co/vinai/PhoGPT-4B-Chat-gguf)
 - 2. experimenting with Mistral ai API
 
  - according to [Mistral AI model list](https://docs.mistral.ai/getting-started/models/models_overview/), the best open model `Mistral Nemo` - `open-mistral-nemo` is for multilanguage, including Vietnamese. The API call to the model gives very good response, and very fast. But if the document is confidential, it is not recommended. 
