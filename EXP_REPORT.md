@@ -1,5 +1,16 @@
 # Experiment report
 
+## in `vietnamese_embed_databse.ipynb`
+
+- 1. Comparison between `Mistral-Nemo-Instruct-2407-Q4_K_M.gguf` and `vinai/phobert-base`
+
+| Parameter                  |                                          |                     |
+|--------                    | --------                                 | -------             |
+| model                      | `Mistral-Nemo-Instruct-2407-Q4_K_M.gguf` | `vinai/phobert-base`|
+| emebedding size            | 5120                                  | 768                |
+| speed                      | 169 samples, each with ~200 words / 222 min                                 | 1080 samples each with ~ 100 word / < 60 min                 |
+| cosine based on emebedding | quite good                                    | better?                | 
+
 ## in `Local_GenAi_code.ipynb`
 
 - 1. experimenting with gguf llm supporting Vietnamese
